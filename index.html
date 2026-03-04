@@ -9,7 +9,8 @@
     <title>AI Growth Agency | B2B Growth Partner</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -30,9 +31,11 @@
 
     <!-- Hero Section with Curtain Gradient -->
     <section class="hero">
-        <!-- Spline 3D Animation Background -->
-        <div id="spline-wrapper" class="spline-container">
-            <!-- Spline viewer will be loaded via Intersection Observer -->
+        <div class="section-bg">
+            <div class="img-cover" id="spline-wrapper"
+                data-spline-url="https://prod.spline.design/8p8tQvgv80YhZVXM/scene.splinecode">
+                <!-- Spline viewer will be loaded via Intersection Observer -->
+            </div>
         </div>
 
         <div class="container hero-container">
@@ -104,7 +107,7 @@
             <div class="case-studies-grid">
                 <a href="#" class="case-study-card">
                     <div class="case-study-image">
-                        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80"
+                        <img src="https://u7f0l0uml5.ufs.sh/f/XkBRN3aGJvAKMQGnkDE0Pqg2NCBniu6vo3DULFrKydT7YxbM"
                             alt="The Srama Group">
                         <div class="case-study-arrow">
                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -131,6 +134,7 @@
                     <span class="case-study-name">Kestrl</span>
                 </a>
 
+                <!-- COMMENTED OUT: TechFlow case study card (placeholder)
                 <a href="#" class="case-study-card">
                     <div class="case-study-image">
                         <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80"
@@ -145,7 +149,9 @@
                     </div>
                     <span class="case-study-name">TechFlow</span>
                 </a>
+                -->
 
+                <!-- COMMENTED OUT: AI Labs case study card (placeholder)
                 <a href="#" class="case-study-card">
                     <div class="case-study-image">
                         <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"
@@ -160,6 +166,7 @@
                     </div>
                     <span class="case-study-name">AI Labs</span>
                 </a>
+                -->
             </div>
         </div>
     </section>
@@ -167,24 +174,35 @@
     <!-- About Section -->
     <section class="about-section">
         <div class="container">
-            <span class="section-tag">About</span>
-            <h2 class="section-title">AI-native since 2024.</h2>
-            <p class="about-description">
+            <div class="section-tag-numbered">
+                <span class="tag-number">3</span>
+                <span>About us</span>
+            </div>
+            <h2 class="about-heading">AI-native since 2024.</h2>
+            <p class="about-lead">
                 Founded by <strong>Amr Hasanin</strong>, a former marketing lead at
                 Figma, Notion, two other startups, & a range of Fortune 500
                 clients, this team is one of the few AI marketing agencies in Canada.
             </p>
 
-            <div class="founder-card">
-                <img src="https://u7f0l0uml5.ufs.sh/f/XkBRN3aGJvAKB5HqsCbCa5k6zuFXniNPd9b0fStj2r3HOwgA"
-                    alt="Amr Hasanin - Founder" class="founder-image">
-                <div class="founder-info">
-                    <span class="founder-name">Amr Hasanin</span>
-                    <span class="founder-title">Founder & CEO</span>
+            <div class="team-wrap">
+                <div class="team-item">
+                    <div class="team-thumb">
+                        <img src="https://u7f0l0uml5.ufs.sh/f/XkBRN3aGJvAKB5HqsCbCa5k6zuFXniNPd9b0fStj2r3HOwgA"
+                            loading="lazy" alt="Amr Hasanin" class="team-thumb-img">
+                    </div>
+                    <div class="team-content">
+                        <h5 class="team-content-heading">Amr Hasanin</h5>
+                        <div class="team-content-title">Founder & CEO</div>
+                        <p class="p">A former marketing lead at Figma, Notion, two other startups,
+                            & a range of Fortune 500 clients. Amr spotted the business utility of AI early and
+                            built one of the few AI marketing agencies in Canada.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Services Section -->
     <section id="services" class="services-section">
@@ -255,15 +273,15 @@
 
                 <div class="testimonial-card">
                     <p class="testimonial-text">
-                        "Their AI-powered approach to sales administration saved us 40+ hours
-                        per week. The ROI was immediate and substantial."
+                        "The app is a game-changer for our users. It's great, efficient, and has
+                        already helped us achieve our goals."
                     </p>
                     <div class="testimonial-author">
-                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80"
-                            alt="Marcus Johnson" class="author-image">
+                        <img src="https://u7f0l0uml5.ufs.sh/f/XkBRN3aGJvAKZnha5QBz5jegp6DKcSI9Hmz0wWNVQidrX8xv"
+                            alt="Areeb Siddiqui" class="author-image">
                         <div class="author-info">
-                            <span class="author-name">Marcus Johnson</span>
-                            <span class="author-role">CEO, ScaleUp Inc</span>
+                            <span class="author-name">Areeb Siddiqui</span>
+                            <span class="author-role">Founder, Kestrl</span>
                         </div>
                     </div>
                 </div>
@@ -277,7 +295,7 @@
                         <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80"
                             alt="Emily Roberts" class="author-image">
                         <div class="author-info">
-                            <span class="author-name">Emily Roberts</span>
+                            <span class="author-name">John Doe</span>
                             <span class="author-role">Founder, B2B Solutions</span>
                         </div>
                     </div>
@@ -323,6 +341,23 @@
                     if (entry.isIntersecting) {
                         // Load the spline-viewer when it comes into view
                         wrapper.innerHTML = `<spline-viewer url="https://prod.spline.design/8p8tQvgv80YhZVXM/scene.splinecode"></spline-viewer>`;
+
+                        // Disable the hint explicitly
+                        const viewer = wrapper.querySelector('spline-viewer');
+                        if (viewer) {
+                            viewer.addEventListener('load', () => {
+                                // Some versions use a property
+                                viewer.hint = false;
+                                // Just in case it's a shadow DOM element we can style (unlikely but safe)
+                                const shadow = viewer.shadowRoot;
+                                if (shadow) {
+                                    const hintStyle = document.createElement('style');
+                                    hintStyle.textContent = '#hint { display: none !important; } .hint { display: none !important; }';
+                                    shadow.appendChild(hintStyle);
+                                }
+                            });
+                        }
+
                         observer.disconnect(); // Stop observing once loaded
                     }
                 });
